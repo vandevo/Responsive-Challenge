@@ -7,8 +7,17 @@ body {
 }
 
 .container {
-    width: 570px;
+    width: 90%;
     margin: 0 auto;
+}
+
+img {
+    width: 40%;
+}
+
+@media (orientation:landscape) {
+    img {width: 20%;
+    }
 }
 
 h1,
