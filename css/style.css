@@ -154,5 +154,18 @@ section {
     .splitter {
         display: flex;
     }
+
+    
+    .articles.inverse {
+        color: #252525;
+        background: #99D930;
+    }
+
+    .articles.inverse .accent-text,
+    .articles.inverse .name,
+    .articles.inverse time {
+        color: currentColor;
+    }
+    
     
 }
