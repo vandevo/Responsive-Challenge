@@ -1,28 +1,34 @@
-
+/* ============ Global Style */
 html {
     font-size: .9rem;
 
 }
+
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin: 0;
+
 }
 
+
+
 .container {
-    width: 90%;
+ 
+    max-width: 90%;
     margin: 0 auto;
+    padding: 0 2em;
 }
+
+/* ============ Images & Media */
 
 img {
     width: 40%;
 }
 
-@media (orientation:landscape) {
-    img {width: 20%;
-    }
-}
+/* ============ Typography */
 
 h1,
 h2 {
@@ -88,6 +94,8 @@ a:focus {
     margin-top: .3125rem;
 } 
 
+/* ============ Header */
+
 header,
 section {
     padding: 6.25em 0;
@@ -103,6 +111,8 @@ section {
     background: #fff;
     color: #252525;
 }
+
+/* ============ Buttons */
 
 .btn {
     display: inline-block;
@@ -125,4 +135,24 @@ section {
         font-size: 1.3125rem;
         text-color: blue;
     }
+}
+
+
+/* ============ Media Queries */
+
+@media (min-width: 600px) {
+    html {
+        font-size: 1.3125rem;
+        
+    
+    }
+   
+    
+}
+
+@media (min-width: 750px){
+    .splitter {
+        display: flex;
+    }
+    
 }
